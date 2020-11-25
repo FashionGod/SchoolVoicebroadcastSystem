@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="classStyle" >
+        <!--<item name="android:minHeight">30dp</item>//虚拟机尺寸-->
+        <!--<item name="android:minWidth">100dp</item>//虚拟机尺寸-->
+        <item name="android:minHeight">130dp</item>//真机测试尺寸
+        <item name="android:minWidth">272dp</item>//真机测试尺寸
+        <item name="android:textSize">55dp</item>//字体真机测试尺寸
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginLeft">2dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">#006400</item>
+    </style>
+    <style name="gradeStyle" >
+        <!--<item name="android:minHeight">30dp</item>//虚拟机尺寸-->
+        <!--<item name="android:minWidth">100dp</item>//虚拟机尺寸-->
+        <item name="android:minHeight">130dp</item>//真机测试尺寸
+        <item name="android:minWidth">272dp</item>//真机测试尺寸
+        <item name="android:textSize">55dp</item>//字体真机测试尺寸
+        <item name="android:background">#0000AA</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginLeft">2dp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+</resources>

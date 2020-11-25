@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="229dp"
+        tools:layout_editor_absoluteY="100dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:text="XX学校放学信息播报系统"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="50dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/editText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="绿色：未放学      红色：已放学"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="35dp" />
+
+            <TextView
+                android:id="@+id/todayDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="970dp"
+                android:text=""
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="35dp" />
+        </LinearLayout>
+
+        <GridLayout
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="7"
+            android:orientation="horizontal">
+
+            <Button
+                style="@style/gradeStyle"
+                android:text="一年级" />
+
+            <Button
+                android:id="@+id/one_one"
+                style="@style/classStyle"
+                android:background="@drawable/btn_st"
+                android:text="一班" />
+
+            <Button
+                android:id="@+id/one_two"
+                style="@style/classStyle"
+                android:background="@drawable/btn_st"
+                android:text="二班" />
+
+            <Button
+                android:id="@+id/one_three"
+                style="@style/classStyle"
+                android:background="@drawable/btn_st"
+                android:text="三班" />
+
+            <Button
+                android:id="@+id/one_four"
+                style="@style/classStyle"
+                android:background="@drawable/btn_st"
+                android:text="四班" />
+
+            <Button
+                android:id="@+id/one_five"
+                style="@style/classStyle"
+                android:background="@drawable/btn_st"
+                android:text="五班" />
+
+            <Button
+                android:id="@+id/one_six"
+                style="@style/classStyle"
+                android:background="@drawable/btn_st"
+                android:text="六班" />
+
+            <Button
+                style="@style/gradeStyle"
+                android:text="二年级" />
+
+            <Button
+                android:id="@+id/two_one"
+                style="@style/classStyle"
+                android:background="@drawable/btn_st"
+                android:text="一班" />
+
+            <Button
+                android:id="@+id/two_two"
+                style="@style/classStyle"
+                android:background="@drawable/btn_st"
+                android:text="二班" />
+
+            <Button
+                android:id="@+id/two_three"
+                style="@style/classStyle"
+                android:background="@drawable/btn_st"
+                android:text="三班" />
+
+            <Button
+                android:id="@+id/two_four"
+                style="@style/classStyle"
+                android:background="@drawable/btn_st"
+                android:text="四班" />
+
+            <Button
+                android:id="@+id/two_five"
+                style="@style/classStyle"
+                android:background="@drawable/btn_st"
+                android:text="五班" />
+
+            <Button
+                android:id="@+id/two_six"
+                style="@style/classStyle"
+                android:background="@drawable/btn_st"
+                android:text="六班" />
+
+            <Button
+                style="@style/gradeStyle"
+                android:text="三年级" />
+
+            <Button
+                android:id="@+id/three_one"
+                style="@style/classStyle"
+                android:background="@drawable/btn_st"
+                android:text="一班" />
+
+            <Button
+                android:id="@+id/three_two"
+                style="@style/classStyle"
+                android:background="@drawable/btn_st"
+                android:text="二班" />
+
+            <Button
+                android:id="@+id/three_three"
+                style="@style/classStyle"
+                android:background="@drawable/btn_st"
+                android:text="三班" />
+
+            <Button
+                android:id="@+id/three_four"
+                style="@style/classStyle"
+                android:background="@drawable/btn_st"
+                android:text="四班" />
+
+            <Button
+                android:id="@+id/three_five"
+                style="@style/classStyle"
+                android:background="@drawable/btn_st"
+                android:text="五班" />
+
+            <Button
+                android:id="@+id/three_six"
+                style="@style/classStyle"
+                android:background="@drawable/btn_st"
+                android:text="六班" />
+
+            <Button
+                style="@style/gradeStyle"
+                android:text="四年级" />
+
+            <Button
+                android:id="@+id/four_one"
+                style="@style/classStyle"
+                android:background="@drawable/btn_st"
+                android:text="一班" />
+
+            <Button
+                android:id="@+id/four_two"
+                style="@style/classStyle"
+                android:background="@drawable/btn_st"
+                android:text="二班" />
+
+            <Button
+                android:id="@+id/four_three"
+                style="@style/classStyle"
+                android:background="@drawable/btn_st"
+                android:text="三班" />
+
+            <Button
+                android:id="@+id/four_four"
+                style="@style/classStyle"
+                android:background="@drawable/btn_st"
+                android:text="四班" />
+
+            <Button
+                android:id="@+id/four_five"
+                style="@style/classStyle"
+                android:background="@drawable/btn_st"
+                android:text="五班" />
+
+            <Button
+                android:id="@+id/four_six"
+                style="@style/classStyle"
+                android:background="@drawable/btn_st"
+                android:text="六班" />
+
+            <Button
+                style="@style/gradeStyle"
+                android:text="五年级" />
+
+            <Button
+                android:id="@+id/five_one"
+                android:background="@drawable/btn_st"
+                style="@style/classStyle"
+                android:text="一班" />
+
+            <Button
+                android:id="@+id/five_two"
+                style="@style/classStyle"
+                android:background="@drawable/btn_st"
+                android:text="二班" />
+
+            <Button
+                android:id="@+id/five_three"
+                style="@style/classStyle"
+                android:background="@drawable/btn_st"
+                android:text="三班" />
+
+            <Button
+                android:id="@+id/five_four"
+                style="@style/classStyle"
+                android:background="@drawable/btn_st"
+                android:text="四班" />
+
+            <Button
+                android:id="@+id/five_five"
+                style="@style/classStyle"
+                android:background="@drawable/btn_st"
+                android:text="五班" />
+
+            <Button
+                android:id="@+id/five_six"
+                style="@style/classStyle"
+                android:background="@drawable/btn_st"
+                android:text="六班" />
+
+            <Button
+                style="@style/gradeStyle"
+                android:text="六年级" />
+
+            <Button
+                android:id="@+id/six_one"
+                style="@style/classStyle"
+                android:background="@drawable/btn_st"
+                android:text="一班" />
+
+            <Button
+                android:id="@+id/six_two"
+                style="@style/classStyle"
+                android:background="@drawable/btn_st"
+                android:text="二班" />
+
+            <Button
+                android:id="@+id/six_three"
+                style="@style/classStyle"
+                android:background="@drawable/btn_st"
+                android:text="三班" />
+
+            <Button
+                android:id="@+id/six_four"
+                style="@style/classStyle"
+                android:background="@drawable/btn_st"
+                android:text="四班" />
+
+            <Button
+                android:id="@+id/six_five"
+                style="@style/classStyle"
+                android:background="@drawable/btn_st"
+                android:text="五班" />
+
+            <Button
+                android:id="@+id/six_six"
+                style="@style/classStyle"
+                android:background="@drawable/btn_st"
+                android:text="六班" />
+        </GridLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/LeaveSchoolNews"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="放学通知信息"
+                android:onClick="disappear"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="60dp"/>//真机测试尺寸
+                <!--android:textSize="30dp" />//虚拟机尺寸-->
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
